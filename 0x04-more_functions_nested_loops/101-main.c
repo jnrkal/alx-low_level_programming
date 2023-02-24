@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - Check the code
- * Return: 0
+ * main - Checks the code
+ * Return 0
  */
 
 int main(void)
