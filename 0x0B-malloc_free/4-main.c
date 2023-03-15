@@ -13,7 +13,7 @@
 
 void print_grid(int **grid, int width, int height)
 {
-	nt w;
+	int w;
 	int h;
 
 	h = 0;
@@ -38,9 +38,9 @@ void print_grid(int **grid, int width, int height)
 
 int main(void)
 {
-	nt **grid;
+	int **grid;
 
-	rid = alloc_grid(6, 4);
+	grid = alloc_grid(6, 4);
 	if (grid == NULL)
 	{
 	return (1);
